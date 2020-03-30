@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lashwinib.englishtofrench.MainActivity">
+
+    <GridLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="2"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:onClick="playPhrase"
+            android:tag="hello"
+            android:text="HELLO"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:onClick="playPhrase"
+            android:tag="mynameis"
+            android:text="MY NAME IS..."
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:onClick="playPhrase"
+            android:tag="howareyou"
+            android:text="HOW ARE YOU?"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:onClick="playPhrase"
+            android:tag="doyouspeakenglish"
+            android:text="DO YOU\nSPEAK ENGLISH?"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@android:color/holo_purple"
+            android:onClick="playPhrase"
+            android:tag="ilivein"
+            android:text="I AM FROM..."
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:onClick="playPhrase"
+            android:tag="goodevening"
+            android:text="GOOD EVENING"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:onClick="playPhrase"
+            android:tag="please"
+            android:text="PLEASE"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="playPhrase"
+            android:tag="welcome"
+            android:text="WELCOME"
+            android:textColor="@android:color/white" />
+
+
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>
